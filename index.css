@@ -1,0 +1,58 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #028C3E;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: gold;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace
+}
+
+#vc, #whack-a-mole {
+  margin: 0 auto;
+  display: block;
+}
+#vc {
+  width: 200px;
+}
+#whack-a-mole {
+  width: 610px;
+}
+
+#whack-a-mole img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+#startbtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: gold;
+  background-color: black;
+}
+
+#score {
+  color: gold;
+  font-size: 30px;
+  width: 280px;
+  position: fixed;
+  left: 630px;
+  bottom: 500px;
+  text-align: center;
+}
+
+#headMole {
+  width: 80px;
+  height: 80px;
+  float: right;
+  position: fixed;
+  right: 360px;
+}
